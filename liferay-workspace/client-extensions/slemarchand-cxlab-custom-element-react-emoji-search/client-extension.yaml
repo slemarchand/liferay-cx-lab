@@ -1,0 +1,15 @@
+assemble:
+    - from: build/static
+      into: static
+slemarchand-cxlab-custom-element-react-emoji-search:
+    cssURLs:
+        - css/main.*.css
+    friendlyURLMapping: cx-react-emoji-search
+    htmlElementName: cx-react-emoji-search
+    instanceable: false
+    name: CX React Emoji Search
+    portletCategoryName: category.client-extensions
+    type: customElement
+    urls:
+        - js/main.*.js
+    useESM: true
