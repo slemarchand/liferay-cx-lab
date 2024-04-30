@@ -1,0 +1,11 @@
+{
+    "private": true,
+    "workspaces": {
+        "packages": [
+            "client-extensions/slemarchand-cxlab-custom-element-vue3-timer",
+            "client-extensions/slemarchand-cxlab-custom-element-react-emoji-search",
+            "client-extensions/slemarchand-cxlab-custom-element-vue3-todo-list",
+            "client-extensions/liferay-sample-custom-element-4"
+        ]
+    }
+}
