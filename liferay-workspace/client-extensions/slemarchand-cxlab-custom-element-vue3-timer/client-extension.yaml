@@ -1,0 +1,15 @@
+assemble:
+    - from: vite-build
+      into: static
+slemarchand-cxlab-custom-element-vue3-timer:
+    cssURLs:
+        - assets/*.css
+    friendlyURLMapping: cx-vue3-timer
+    htmlElementName: cx-vue3-timer
+    instanceable: false
+    name: CX Vue 3 Timer
+    portletCategoryName: category.client-extensions
+    type: customElement
+    urls:
+        - assets/*.js
+    useESM: true
